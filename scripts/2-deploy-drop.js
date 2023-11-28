@@ -6,8 +6,8 @@ import { readFileSync } from "fs";
   try {
     const editionDropAddress = await sdk.deployer.deployEditionDrop(
       {
-          name : "Synergy-DAO Membership",
-          description : "A DAO for fans of Arijit Singh's concert.",
+          name : "anime-DAO Membership",
+          description : "A DAO for fans of Anime.",
           symbol : "{{symbol}}",
           image : "ipfs.io/ipfs/QmctEWp9nudeH7J79paM2ChDqSeMHsaTAq8cWFoRo7vVMa",
           primary_sale_recipient : AddressZero,
